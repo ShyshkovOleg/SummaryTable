@@ -1,0 +1,8 @@
+{
+    "/": {
+      "target": "https://api.binance.com/api",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true
+    }
+  }

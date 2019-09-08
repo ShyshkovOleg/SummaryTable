@@ -2,13 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RoundPipe } from './round.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RoundPipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
